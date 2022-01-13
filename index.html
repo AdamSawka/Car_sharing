@@ -48,7 +48,7 @@
 </section>
 <section class="blog">
     <div class="container">
-        <h2 class="blog-header">Blog</h2>
+        <h2 class="blog-header decoration-header">Blog</h2>
         <div class="blog-articles">
             <article class="article-1"><img src="images/photo1.png" alt="car">
                 <h3>Lorem ipsum sit dolor</h3>
@@ -76,7 +76,7 @@
 </section>
 <section class="service">
     <div class="container">
-        <h2 class="service-header">Service</h2>
+        <h2 class="service-header decoration-header">Service</h2>
         <div class="service-articles">
             <article class="service-article article1"><img src="images/mini1.png" alt="car">
                 <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
@@ -107,23 +107,29 @@
 </section>
 <section class="contact">
     <div class="container">
-        <h2 class="contact-header">Contact</h2>
-        <div class="contact-jpg"><img src="images/FormPhoto.png" alt="cars"></div>
-        <form action="send" class="contact-form">
-            <input type="text" placeholder="Type your name">
-            <input type="email" placeholder="Type your e-mail">
-            <input type="text" placeholder="Type your message">
-            <div class="contact-checkbox">
+        <h2 class="contact-header decoration-header">Contact</h2>
+
+        <div class="contact-container">
+            <img src="images/FormPhoto.png" alt="cars">
+            <form action="send" class="contact-form">
+                <input type="text" placeholder="Type your name"/>
+                <input type="email" placeholder="Type your e-mail"/>
+                <textarea rows="3" cols="30" placeholder="Type your message"></textarea>
 
                 <label>
-                    <input type="checkbox">I hereby give consent for my personal data included in my application to be processed for the purposes of
-                the recruitment process under the European Parliament’s and Council of the European Union Regulation on
-                the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data
-                and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)"
-                    </label>
+                    <input type="checkbox">I hereby give consent for my personal data included in my application to be
+                    processed for the purposes of
+                    the recruitment process under the European Parliament’s and Council of the European Union Regulation
+                    on
+                    the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal
+                    data
+                    and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)"
+                </label>
 
-            <button class="contact-formular-button">Send</button>
+                <button class="contact-form-button" type="submit">Send</button>
+
         </form>
+        </div>
     </div>
 </section>
 </body>
