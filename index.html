@@ -1,14 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pozycjonowanie elementów</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&family=Open+Sans:wght@300;400&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>Car sharing</title>
 </head>
 <body>
+<section class="home-side">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img class="icon-logo" src="/images/IconLogoNormal.svg" alt="Icon Logo">
+                <p class="logo-description"><a href="#"><strong>Car</strong>Sharing</a></p>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="home-side-description">
+        <div class="home-side-description-container">
+            <h1>Car sharing</h1>
+            <p class="home-side-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="home-side-section-buttons">
+                <button class="home-side-section-button-first">Share car</button>
+                <button class="home-side-section-button-second">Key features</button>
+            </div>
+        </div>
+        <a href="#" class="arrow"> <img src="images/IconArrowDown.svg"></a>
+    </section>
 
+</section>
+<section class="blog">
+    <div class="container">
+        <h2 class="blog-header">Blog</h2>
+        <div class="blog-articles">
+            <article class="article-1"><img src="images/photo1.png" alt="car">
+                <h3>Lorem ipsum sit dolor</h3>
+                <p class="article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <button class="article-button">Read more</button>
+            </article>
+            <article class="article-2"><img src="images/photo2.png" alt="car">
+                <h3>Lorem ipsum sit dolor</h3>
+                <p class="article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <button class="article-button">Read more</button>
+            </article>
+            <article class="article-3"><img src="images/photo3.png" alt="car">
+                <h3>Lorem ipsum sit dolor</h3>
+                <p class="article-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <button class="article-button">Read more</button>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="service">
+    <div class="container">
+        <h2 class="service-header">Service</h2>
+        <div class="service-articles">
+            <article class="service-article article1"><img src="images/mini1.png" alt="car">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">Read more</button>
+            </article>
+            <article class="service-article article2"><img src="images/mini2.png" alt="car">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">Read more</button>
+            </article>
+            <article class="service-article article3"><img src="images/mini3.png" alt="car">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">Read more</button>
+            </article>
+            <article class="service-article article4"><img src="images/mini4.png" alt="car">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">Read more</button>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <h2 class="contact-header">Contact</h2>
+        <div class="contact-jpg"><img src="images/FormPhoto.png" alt="cars"></div>
+        <form action="send" class="contact-form">
+            <input type="text" placeholder="Type your name">
+            <input type="email" placeholder="Type your e-mail">
+            <input type="text" placeholder="Type your message">
+            <div class="contact-checkbox">
+
+                <label>
+                    <input type="checkbox">I hereby give consent for my personal data included in my application to be processed for the purposes of
+                the recruitment process under the European Parliament’s and Council of the European Union Regulation on
+                the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data
+                and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)"
+                    </label>
+
+            <button class="contact-formular-button">Send</button>
+        </form>
+    </div>
+</section>
 </body>
 </html>
