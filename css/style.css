@@ -228,14 +228,19 @@ section.blog{
     display: flex;
 }
 
-article {
+.blog article {
     width: 352px;
     margin: 0 8px;
-    /*display: flex;*/
 }
-article img {
+.blog article img {
     width: 352px;
     height: 234px;
+    transition: 0.3s;
+}
+.blog article img:hover{
+    width: 360px;
+    height: 242px;
+
 }
 .blog-articles h3{
     text-align: left;
@@ -262,6 +267,11 @@ article img {
     color: #fff;
     margin-top: 15px;
     padding: 11px 29px;
+    transition: 0.5s;
+}
+.article-button:hover{
+    color: #f00;
+    background: #fff;
 }
 
 /*END BLOG SECTION*/
@@ -322,6 +332,11 @@ article img {
     border: none;
     opacity: 1;
     color: #fff;
+    transition: 0.5s;
+}
+.service-article-button:hover{
+    color: #f00;
+    background: #fff;
 }
 
 /*END SERVICE SECTION*/
