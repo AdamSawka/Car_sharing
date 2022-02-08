@@ -1,0 +1,84 @@
+
+.home-side-description{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.home-side-description-container{
+  margin: 254px 160px;
+
+}
+.home-side-description-container h1{
+  text-align: center;
+  font: normal normal 900 90px/90px Nunito Sans;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+  line-height: 123px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.home-side-section-description{
+  text-align: center;
+  font: normal normal bold 16px/22px Nunito Sans;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+.home-side-section-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 54px;
+
+}
+.home-side-description button{
+  display: inline-block;
+  text-align: center;
+  font: normal normal bold 16px/22px Nunito Sans;
+  letter-spacing: 0;
+  opacity: 1;
+  width: 220px;
+  height: 66px;
+  margin: 0 25px;
+  border-radius: 33px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border: none;
+}
+.home-side-section-button-first{
+  background-color: rgba(255,0,0,1);
+  color: #fff
+}
+.home-side-section-button-first:hover{
+  color: #f00;
+  background-color: rgba(255,255,255,1);
+}
+.home-side-section-button-second{
+  color: #f00;
+}
+.home-side-section-button-second:hover{
+  color: #fff;
+  background-color: rgba(255,0,0,1);
+}
+.arrow{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -27px;
+  border: 1px solid #f00;
+  width: 55px;
+  height: 55px;
+  border-radius:50%;
+  background: #f00;
+  transition: 0.5s;
+}
+.arrow:hover{
+  bottom: -40px;
+}
+

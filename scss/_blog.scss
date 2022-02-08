@@ -1,0 +1,69 @@
+
+section.blog{
+  width: 100%;
+  height: 707px;
+}
+.blog-header{
+  display: block;
+  height: 35px;
+  margin: 0 15px 35px 15px;
+  padding-top: 91px;
+  font: normal normal bold 35px/47px Nunito Sans;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 1);
+  opacity: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-articles{
+  display: flex;
+}
+
+.blog article {
+  width: 352px;
+  margin: 0 8px;
+}
+.blog article img {
+  width: 352px;
+  height: 234px;
+  transition: 0.3s;
+}
+.blog article img:hover{
+  width: 360px;
+  height: 242px;
+
+}
+.blog-articles h3{
+  text-align: left;
+  font: normal normal normal 19px/26px Nunito Sans;
+  letter-spacing: 0;
+  color: rgba(106, 106, 106, 1);
+  margin-top: 25px;
+  margin-bottom: 15px;
+  opacity: 1;
+}
+.article-paragraph{
+  text-align: left;
+  font: normal normal 300 14px/19px Open Sans;
+  letter-spacing: 0;
+  color: rgba(106, 106, 106, 1);
+  opacity: 1;
+}
+.article-button{
+  background: rgba(255, 0, 0, 1) 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px rgba(255, 0, 0, 0.3);
+  border-radius: 40px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+  margin-top: 15px;
+  padding: 11px 29px;
+  transition: 0.5s;
+}
+.article-button:hover{
+  color: #f00;
+  background: #fff;
+}
+
+
