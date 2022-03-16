@@ -1,8 +1,24 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0-modified | 20110126
-   License: none (public domain)
-*/
+.decoration-header::before {
+  content: " ";
+  position: relative;
+  bottom: 10px;
+  margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: rgba(255, 0, 0, 1);
+}
 
+.decoration-header::after {
+  content: " ";
+  position: relative;
+  bottom: 10px;
+  margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: rgba(255, 0, 0, 1);
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

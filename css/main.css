@@ -1,7 +1,25 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0-modified | 20110126
-   License: none (public domain)
-*/
+.decoration-header::before {
+  content: " ";
+  position: relative;
+  bottom: 10px;
+  margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: red;
+}
+
+.decoration-header::after {
+  content: " ";
+  position: relative;
+  bottom: 10px;
+  margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: red;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -359,40 +377,13 @@ textarea {
   padding: 0.2em 0;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 12px;
-  width: 100%;
-  max-width: 1088px;
-  height: 807px;
-}
-.container .decoration-header::before {
-  content: " ";
-  position: relative;
-  bottom: 10px;
-  margin: 0 10px;
-  display: inline-block;
-  width: 50px;
-  height: 3px;
-  background-color: red;
-}
-.container .decoration-header::after {
-  content: " ";
-  position: relative;
-  bottom: 10px;
-  margin: 0 10px;
-  display: inline-block;
-  width: 50px;
-  height: 3px;
-  background-color: red;
-}
-.container .home-side {
+.home-side {
   background: url("../images/Image.jpg") no-repeat top/cover;
   height: 100vh;
   width: 100%;
 }
-.container .home-side::before {
-  content: "";
+.home-side::before {
+  content: " ";
   display: block;
   position: absolute;
   height: 100vh;
@@ -400,29 +391,33 @@ textarea {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
-.container header {
+.home-side header {
   background: #00000066;
   height: 88px;
   position: fixed;
   width: 100%;
   z-index: 3;
 }
-.container header .container {
+.home-side header .container {
+  margin: 0 auto;
+  padding: 0 12px;
+  width: 100%;
+  max-width: 1088px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
-.container .logo {
+.home-side header .container .logo {
   display: flex;
   align-items: center;
 }
-.container .icon-logo {
+.home-side header .container .logo .icon-logo {
   width: 31px;
   height: 35px;
   margin-right: 10px;
 }
-.container .logo-description a {
+.home-side header .container .logo .logo-description a {
   text-align: left;
   font: normal normal bold 35px/47px Nunito Sans;
   letter-spacing: 0;
@@ -432,7 +427,7 @@ textarea {
   margin-right: 333px;
   text-decoration: none;
 }
-.container .logo-description a > strong {
+.home-side header .container .logo .logo-description a > strong {
   top: 20px;
   left: 182px;
   width: 74px;
@@ -443,21 +438,21 @@ textarea {
   color: #FF0000;
   opacity: 1;
 }
-.container .navigation {
+.home-side header .container .navigation {
   height: 100%;
   width: 100%;
 }
-.container .navigation > ul {
+.home-side header .container .navigation > ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 100%;
 }
-.container .navigation > ul > li {
+.home-side header .container .navigation > ul > li {
   display: inline-block;
 }
-.container .navigation a {
+.home-side header .container .navigation > ul > li a {
   text-align: left;
   font: normal normal bold 16px/22px Nunito Sans;
   letter-spacing: 0;
@@ -468,7 +463,7 @@ textarea {
   padding: 33px;
   transition: 0.3s;
 }
-.container .navigation a:hover {
+.home-side header .container .navigation > ul > li a .navigation a:hover {
   background: #FFFFFF33 0 0 no-repeat padding-box;
   opacity: 1;
 }
