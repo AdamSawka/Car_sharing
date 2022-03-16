@@ -14,6 +14,7 @@
 ## Information
 - Project created at CodersLab bootcamp
 - Purpose was to learn how to simply build layouts
+- Live [demo](https://adamsawka.github.io/Car_sharing/)
 
 
 ## Technologies
