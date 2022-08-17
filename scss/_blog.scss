@@ -19,15 +19,15 @@ section.blog {
   .blog-articles {
     display: flex;
    justify-content: center;
-  }
-
-  .blog article {
+   .img-container{
+    overflow: hidden;
     width: 352px;
     height: 234px;
-    margin: 0 8px;
-    // overflow: hidden;
-  }
+    margin: 0 auto;
 
+   }
+  }
+  
   .blog article img {
     width: 352px;
     height: 234px;
@@ -41,7 +41,7 @@ section.blog {
   }
 
   .blog-articles h3 {
-    text-align: left;
+    text-align: center;
     font: normal normal normal 19px/26px Nunito Sans;
     letter-spacing: 0;
     color: rgba(106, 106, 106, 1);
@@ -51,7 +51,7 @@ section.blog {
   }
 
   .article-paragraph {
-    text-align: left;
+    text-align: center;
     font: normal normal 300 14px/19px Open Sans;
     letter-spacing: 0;
     color: rgba(106, 106, 106, 1);
@@ -59,13 +59,14 @@ section.blog {
   }
 
   .article-button {
+    display: block;
     background: rgba(255, 0, 0, 1) 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px rgba(255, 0, 0, 0.3);
     border-radius: 40px;
     border: none;
     opacity: 1;
     color: #fff;
-    margin-top: 15px;
+    margin: 15px auto;
     padding: 11px 29px;
     transition: 0.5s;
   }
