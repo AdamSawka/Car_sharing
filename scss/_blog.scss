@@ -23,7 +23,9 @@ section.blog {
 
   .blog article {
     width: 352px;
+    height: 234px;
     margin: 0 8px;
+    // overflow: hidden;
   }
 
   .blog article img {
